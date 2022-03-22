@@ -1,0 +1,123 @@
+/* Version ordinateur*/
+@media screen and (min-width: 1200px){
+    .container {
+        width: 60%;
+    }
+
+    nav{
+        display: flex;/*permet d'afficher le menu en version pc*/
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 0;
+        
+    }
+
+    .menu{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    }
+
+    .menuburger{
+    display: none;
+    }
+
+    ul{
+        list-style: none;
+        gap: 15px;
+    }
+
+    ul a{
+        text-decoration: none;
+        color: var(--black);
+        font-weight: bold;
+    }
+
+    header h1{
+        font-size: 4rem;
+        font-weight: bold;
+
+    }
+    
+    header p{
+        font-weight: 500;
+        font-size: 1.5rem;
+        margin-bottom: 150px;
+    }
+
+    header img{
+        width: 40%;
+        margin-top: 150px;
+    }
+
+    main img{
+        width: 90%;
+        border-radius: 5px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        
+    }
+
+    main h2{
+        position: absolute;
+        margin: 0;
+        padding-bottom: 0px;
+        bottom: 20px;
+        width: 30%;
+        left: 70px;
+        font-size: 1rem;
+        font-weight: bold;
+        
+    }
+
+    .btn{
+        display: none;
+
+    }
+
+    .card{
+        position: relative;
+        margin-bottom: 50px;
+
+    }
+
+    main .unicorn{
+        position: relative;
+        background-color: var(--gray);
+        display: flex;
+        flex-direction: row-reverse;
+        padding: 54px;
+        
+        
+    }
+
+    main .unicorn img, main .unicorn div{
+        width: 50%;
+
+    }
+
+    .btnblack{
+        display: inline;
+        padding: 12px 20px;
+    
+        
+    }
+    
+    main .unicorn h3{
+        font-size: 3rem;
+        margin-bottom: 20px;
+        padding-bottom: 30px;
+    }
+
+
+    footer ul{
+        list-style: none;
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    footer ul li{
+        border:none;
+    }
+}
